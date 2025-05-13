@@ -14,3 +14,8 @@ body {
 .form-container h2 {
     margin-bottom: 20px;
 }
+
+.is-invalid {
+    border-color: red;
+    background-color: #ffe6e6;
+}
