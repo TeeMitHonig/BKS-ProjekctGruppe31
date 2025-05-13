@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Bootstrap JS -->
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
 </head>
 <body>
 
@@ -18,7 +21,7 @@
       <h1>IntegrationDurchSport</h1>
       <p>Gemeinsam fit bleiben – dein Fitnessverein in Backnang</p>
     </div>
-    <img src="logo.png" alt="Logo der Stadt Backnang" class="header-img">
+    <img src="Wappen_Backnang.svg" alt="Logo der Stadt Backnang" class="header-img">
 </header>
   
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -34,6 +37,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#kontakt">Kontakt</a>
+            
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="login.html">Mitglied werden</a>
@@ -43,7 +47,7 @@
     </div>
   </nav>
 
-
+  <div id="map"></div>
 <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 

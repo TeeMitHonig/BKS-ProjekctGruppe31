@@ -14,16 +14,16 @@
     <script src="script.js" defer></script>
 </head>
 
-<body>
-    <header class="header">
-    
-          <div class="text-container">
+<body class="bg-light">
+    <header class="header mb-4">
+        <div class="text-container text-center p-3">
             <h1>IntegrationDurchSport</h1>
             <p>Gemeinsam fit bleiben – dein Fitnessverein in Backnang</p>
-          </div>
-          <img src="logo.png" alt="Logo der Stadt Backnang" class="header-img">
-      </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        </div>
+        <img src="Wappen_Backnang.svg" alt="Logo der Stadt Backnang" class="header-img mx-auto d-block">
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">IntegrationDurchSport</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,10 +42,10 @@
         </div>
     </nav>
 
-    <div class="form-container">
+    <div class="form-container container bg-white p-4 rounded shadow">
         <form id="registrationForm">
             <!-- Anrede -->
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label for="salutation">Anrede</label>
                 <select class="form-control" id="salutation" required>
                     <option value="">Bitte wählen...</option>
@@ -56,35 +56,32 @@
             </div>
 
             <!-- Vorname -->
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label for="firstName">Vorname</label>
                 <input type="text" class="form-control" id="firstName" placeholder="Vorname" required>
             </div>
 
             <!-- Nachname -->
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label for="lastName">Nachname</label>
                 <input type="text" class="form-control" id="lastName" placeholder="Nachname" required>
             </div>
 
             <!-- Email -->
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
 
             <!-- Passwort -->
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control" id="Password" placeholder="Password">
             </div>
-            <button type="button" class="btn btn-warning" id="submitButton">Submit</button>
+            <button type="button" class="btn btn-warning w-100" id="submitButton">Submit</button>
         </form>
     </div>
-
 </body>
 
 </html>
