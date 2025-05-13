@@ -14,3 +14,23 @@ body {
 .form-container h2 {
     margin-bottom: 20px;
 }
+
+nav {
+    min-height: 200px;
+    max-height: 250px;
+    background: rgb(196, 196, 196);
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+    margin-left: auto;
+    max-height: 150px;
+    margin-right: 10px;
+}
+
+.nav-title {
+    display: flex;                 
+    justify-content: center;     
+    margin-bottom: 75px;       
+}
