@@ -1,6 +1,4 @@
-document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Verhindert das automatische Absenden des Formulars
-
+document.getElementById('submitButton').addEventListener('click', function() {
     // Felder abrufen
     const salutation = document.getElementById('salutation');
     const firstName = document.getElementById('firstName');
