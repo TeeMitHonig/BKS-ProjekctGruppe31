@@ -15,7 +15,7 @@ body {
     margin-bottom: 20px;
 }
 
-nav * {
+header {
     font-family: "Comic Sans MS";
     min-height: 200px;
     max-height: 250px;
@@ -24,13 +24,13 @@ nav * {
     align-items: center;
 }
 
-.nav-img {
+.header-img {
     margin-left: auto;
     max-height: 150px;
     margin-right: 10px;
 }
 
-.nav-title {
+.header-title {
     display: flex;                 
     margin-left: auto;
     margin-bottom: 75px;  
