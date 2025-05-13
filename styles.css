@@ -15,7 +15,8 @@ body {
     margin-bottom: 20px;
 }
 
-nav {
+nav * {
+    font-family: "Comic Sans MS";
     min-height: 200px;
     max-height: 250px;
     background: rgb(196, 196, 196);
@@ -31,8 +32,9 @@ nav {
 
 .nav-title {
     display: flex;                 
-    justify-content: center;     
-    margin-bottom: 75px;       
+    margin-left: auto;
+    margin-bottom: 75px;  
+    font-size: 36px;     
 }
 
 
