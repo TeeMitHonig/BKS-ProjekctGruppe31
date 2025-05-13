@@ -97,5 +97,11 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
-    background-color: yellow;
+    background-color: lightgray;
+}
+
+.carousel-inner img {
+    width: 100%; /* Stellt sicher, dass das Bild die gesamte Breite einnimmt */
+    height: 800px; /* Einheitliche Höhe für alle Bilder */
+    object-fit: cover; /* Zoomt das Bild so, dass es den gesamten Bereich ausfüllt */
 }
