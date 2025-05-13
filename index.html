@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link href="./bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <nav>
         <div class="nav-title"><h2>IntegrationDurchSport - Anmeldung</h2></div>
@@ -18,43 +20,45 @@
 
     <div class="form-container">
         <form>
-<!-- Anrede -->
-<div class="form-group">
-    <label for="salutation">Anrede</label>
-    <select class="form-control" id="salutation" required>
-        <option value="">Bitte wählen...</option>
-        <option value="Herr">Herr</option>
-        <option value="Frau">Frau</option>
-        <option value="Divers">Divers</option>
-    </select>
-</div>
+            <!-- Anrede -->
+            <div class="form-group">
+                <label for="salutation">Anrede</label>
+                <select class="form-control" id="salutation" required>
+                    <option value="">Bitte wählen...</option>
+                    <option value="Herr">Herr</option>
+                    <option value="Frau">Frau</option>
+                    <option value="Divers">Divers</option>
+                </select>
+            </div>
 
-<!-- Vorname -->
-<div class="form-group">
-    <label for="firstName">Vorname</label>
-    <input type="text" class="form-control" id="firstName" placeholder="Vorname" required>
-</div>
+            <!-- Vorname -->
+            <div class="form-group">
+                <label for="firstName">Vorname</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Vorname" required>
+            </div>
 
-<!-- Nachname -->
-<div class="form-group">
-    <label for="lastName">Nachname</label>
-    <input type="text" class="form-control" id="lastName" placeholder="Nachname" required>
-</div>
+            <!-- Nachname -->
+            <div class="form-group">
+                <label for="lastName">Nachname</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Nachname" required>
+            </div>
 
-<!-- Email -->
-<div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-</div>
+            <!-- Email -->
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
 
-<!-- Passwort -->
-<div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="Password" placeholder="Password">
-</div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+            <!-- Passwort -->
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="Password" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
     </div>
     <div>
         <button id="toggleTheme" class="btn btn-primary">
@@ -63,7 +67,8 @@
     </div>
 
     <!-- Bootstrap JS -->
-    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <!--<script src="./bootstrap/bootstrap.bundle.min.js"></script>-->
     <script src="script.js"></script>
 </body>
+
 </html>

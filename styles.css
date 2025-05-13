@@ -34,3 +34,9 @@ nav {
     justify-content: center;     
     margin-bottom: 75px;       
 }
+
+
+.is-invalid {
+    border-color: red;
+    background-color: #ffe6e6;
+}
