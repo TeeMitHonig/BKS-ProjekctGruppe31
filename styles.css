@@ -106,6 +106,9 @@ nav a:hover {
     text-decoration: underline;
     background-color: lightgray;
 }
+.nav-item{
+    color: white;
+}
 
 .carousel-inner img {
     width: 100%; /* Stellt sicher, dass das Bild die gesamte Breite einnimmt */
